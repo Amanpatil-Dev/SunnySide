@@ -1,0 +1,517 @@
+body{
+    font-family: 'Barlow', sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+.custom-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem;
+}
+
+.header{
+    background-image: url('sunnyside-agency-landing-page-main/images/mobile/image-header.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 540px;
+}
+
+/* .header-desktop{
+    background-image: url('sunnyside-agency-landing-page-main/images/desktop/image-header.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 540px;
+} */
+
+.hero-heading{
+    padding: 1rem;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+    letter-spacing: 6px;
+    margin-bottom: 2rem;
+    font-weight: bolder;
+    font-family: 'Fraunces', serif;
+}
+.hero{
+    margin-bottom: 3rem;
+}
+.arrow-down{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.col-sm-12,.col-sm-6{
+    padding: 0;
+}
+
+.content{
+    padding: 1.2rem;
+}
+
+.content-header{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-family: 'Fraunces', serif;
+}
+
+.content-para{
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+.content-btn{
+    text-transform: uppercase;
+    width: 32%;
+    display: block;
+    margin: auto;
+    font-weight: bolder;
+    position: relative;
+}
+
+.cherry,.orange{
+    position: relative;
+}
+.cherry-content,.orange-content{
+    position: absolute;
+    bottom: 5%;
+    padding: 1.2rem;
+    text-align: center;
+    opacity: 70%;
+}
+.cherry-header,.orange-header{
+    font-family: 'Fraunces', serif;
+
+}
+
+.cherry-para,.orange-para{
+    font-weight: bolder;
+    opacity: 80%;
+}
+
+.gal-1,.gal-2,.gal-3,.gal-4{
+    width: 50%;
+}
+
+.main-footer{
+    background-color: hsl(168deg 50% 79%);
+    text-align: center;
+    padding: 3rem 1.2rem 5rem 1.2rem;
+}
+
+ul{
+    margin-top: 2rem;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: hsl(167, 40%, 24%);
+    font-weight: bolder;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cherry-desktop{
+    display: none;
+}
+.orange-desktop{
+    display: none;
+}
+.milk-desktop,.gallary-desktop,.cone-desktop,.sugar-desktop{
+    display: none;
+}
+
+.content-btn::before{
+    content: "";
+    width: 85%;
+    height: 10px;
+    position: absolute;
+    border-radius: 4px;
+    bottom: 20%;
+    left:8%;
+    background: hsla(51,100%,49%,25%);
+    z-index: 3;
+    transition: all .25s ease-in-out;
+
+    transition-duration: 0.25s;
+    opacity: 80%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.content-btn-2{
+    position: relative;
+    text-transform: uppercase;
+    width: 32%;
+    display: block;
+    margin: auto;
+    font-weight: bolder;
+}
+.content-btn-2::before{
+    content: "";
+    width: 85%;
+    height: 10px;
+    position: absolute;
+    border-radius: 4px;
+    bottom: 16%;
+    left: 8%;
+    background: hsla(7, 99%, 70%, 0.335);
+    z-index: 5;
+    transition-duration: 0.25s;
+    opacity: 49%;
+
+}
+.hidden{
+    display: none;
+}
+.contact-link{
+    transition: all .25s ease-in-out;
+
+}
+.nav-link-custom a{
+    transition: all .25s ease-in-out;
+
+}
+.nav-link-custom a:hover{
+    color: #0a58ca;
+}
+
+.custom-navbar{
+    position: relative;
+}
+.nav-custom-items-active{
+    position: absolute;
+    top:100%;
+    right: 6%;
+    width: 90%;
+    display: block;
+}
+.nav-custom-items-link-active{
+    display: block;
+    background: white;
+    padding: 2rem 2rem 1rem 2rem;
+    text-align: center;
+}
+.nav-link-custom-active{
+    color: black;
+}
+
+.nav-link-custom{
+    margin-bottom: 2rem;
+    
+}
+.main-link{
+    transition: all .25s ease-in-out;
+}
+.main-link:hover{
+    cursor: pointer;
+    color: white;
+}
+
+a{
+    color: black;
+}
+.nav-custom-items-links{
+    position: relative;
+}
+.nav-custom-items-links::after{
+    content: " ";
+    position: absolute;
+    top: -12%;
+    bottom: 301px;
+    right: 0;
+    width: -2%;
+    border-width: 20px;
+    border-style: solid;
+    border-color: transparent white white transparent;
+
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+.t-1{
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+  .swiper-slide {
+    
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    flex-direction: column;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+.contact-link{
+    background-color: orange;
+    color: black;
+    padding: 0.8rem 1.3rem;
+    border-radius: 23px;
+}
+.pos h4{    font-weight: bolder;
+}
+
+.contact-link{
+    color: white;
+}
+.t-1{
+    width: unset;
+}
+.testimonial{
+    padding: 6rem 1.2rem 4rem 1.2rem;
+}
+.testimonial h2{
+    margin-bottom: 5rem;
+}
+
+.swiper-slide p{
+    font-weight: bolder;
+    color: gray;
+}
+.content-btn,.content-btn-2{
+    position: relative;
+    z-index: 5;
+}
+.content-btn:hover::before{
+    background-color: hsl(51, 100%, 49%);
+    opacity: 80%;
+    z-index: -3;
+
+}
+.content-btn-2:hover::before{
+    background-color:  hsl(7, 99%, 70%);
+    opacity: 80%;
+    z-index: -3;
+
+}
+.nav-link-custom{
+    transition: all 0.3s ease-in-out;
+}
+.nav-link-custom .contact-link:hover{
+    color: #fff;
+}
+@media (min-width:550px){
+    .header{
+        background-image: url(sunnyside-agency-landing-page-main/images/desktop/image-header.jpg);
+        height: 700px;
+    }
+    .cherry-mobile{
+        display: none;
+
+    }
+    .cherry-desktop{
+        display: block;
+    }
+    .orange-mobile{
+        display: none;
+    }
+    .orange-desktop{
+        display: block;
+    }
+    .main-links{
+        width: 30%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.responsive{
+    display: none;
+}
+.nav-custom-items{
+    display: flex;
+}
+.nav-custom-items-active{
+    position: static;
+    inset: unset;
+    width: unset;
+}
+.nav-custom-items-link-active{
+    display: flex;
+    background: unset;
+    padding: unset;
+
+}
+.nav-custom-items-links::after{
+    display: none;
+}
+.nav-link-custom{
+    margin-bottom: 0;
+}
+a{
+    color: white;
+}
+
+.contact-link{
+    background-color: white;
+    color: black;
+    padding: 0.8rem 1.3rem;
+    border-radius: 23px;
+}
+.nav-link-custom .contact-link:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #fff;
+}
+
+
+}
+
+
+
+@media (min-width:768px){
+    .content-header{
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        font-size: 1.9rem;
+        text-align: left;
+
+    }
+    .content-para{
+        text-align: left;
+    }
+    .content-btn,.content-btn-2{
+        display: inline-block;
+        width: unset;
+    }
+    .img-1{
+        order: 2;
+    }
+    .cherry-content,.orange-content{
+        bottom: -6%;
+    }
+    .cherry-header,.orange-header{
+        font-size: 1.rem;
+    }
+    .cherry-para,.orange-para{
+        font-size: 0.8rem;
+    }
+    .content{
+        padding: 1.2rem 3rem;
+    }
+    .gal-1,.gal-2,.gal-3,.gal-4{
+        width: 25%;
+    }
+    .milk-mobile,.gallary-mobile,.cone-mobile,.sugar-mobile{
+        display: none;
+    }
+    .milk-desktop,.gallary-desktop,.cone-desktop,.sugar-desktop{
+        display: block;
+    }
+    .hero{
+        margin-top: 4rem;
+    }
+
+  
+
+}
+
+@media (min-width:992px){
+    .cherry-content,.orange-content{
+        right: 10%;
+        width: 80%;
+        bottom: 10%;
+    }
+    .content{
+        margin-top: 4rem;
+        
+    }
+    .content-header{
+        font-size: 2.5rem;
+    }
+    .main-row-1{
+    background-image: url(sunnyside-agency-landing-page-main/design/main.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main-row-2{
+    background-image: url(sunnyside-agency-landing-page-main/design/main2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.swiper-slide .r{
+    width: 90%;
+}
+    
+}
+
+@media (min-width:1200px){
+    .content{
+        width: 98%;
+        margin-top: 0;
+        padding: 1.2rem 7rem;
+    }
+    .content-2{
+        padding: 1.2rem 2rem 1.2rem 6rem;
+    }
+    .content-header{
+        margin-bottom: 1.5rem;
+        font-size: 2.8rem;
+    }
+    .main-row-1,.main-row-2{
+        justify-content: center;
+        align-items: center;
+    }
+    .cherry-content,.orange-content{
+        right: 20%;
+        width: 60%;
+        bottom: 10%;
+    }
+    .orange-header,.cherry-header{
+        margin-bottom: 1rem;
+    }
+    .main-links{
+        width: 20%;
+        margin-bottom: 2.5rem;
+    }
+}
+
+@media (min-width:1441px){
+    .img-fluid{
+        width: 100%;
+    }
+   
+    .gallary{
+        width: 100%!important;
+    }
+ 
+}
+
+@media (min-width:1600px){
+    .content-header{
+        font-size: 4rem;
+    }
+    .content-para{
+        font-size: 1.3rem;
+    }
+    .cherry-header,.orange-header{
+        font-size: 2.3rem;
+    }
+    .cherry-para,.orange-para{
+        font-size: 1.2rem;
+    }
+}
